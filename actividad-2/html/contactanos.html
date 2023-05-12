@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/css/contactanos.css">
+
+  <title>Contáctanos</title>
+
+</head>
+
+<body>
+
+  <header>
+
+    <h1>C o n t á c t a n o s</h1>
+    <nav>
+      <ul>
+        <li> <a href="/index.html" style="color:#042b43;" >Inicio</a></li>
+        <li> <a href="./contactanos.html" style="color:#042b43;" >Contáctanos</a> </li>
+        <li> <a href="#" style="color:#042b43;" >Wiki</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+
+
+    <div class="container container--flex">
+
+      <h3 class="h3"><br> Déjanos Un Mensaje <br></h3>
+      <!-- FORMULARIO -->
+
+      <form action="https://formsubmit.co/bonilla.1ingrid@gmail.com" method="post" class="formulario column column--50"
+        id="formulario">
+
+        <label for="" class="formulario__label"> <br> Nombre: </label><input type="text" class="formulario__input-txt"
+          name="name" id="name" placeholder="Nombre">
+
+
+        <label for="" class="formulario__label">Correo:</label><input type="text" class="formulario__input-txt"
+          name="email" id="email" placeholder="Email">
+
+
+        <label for="" class="formulario__label">Teléfono:</label><input type="number" class="formulario__input-txt"
+          name="phone" id="phone" placeholder="Teléfono">
+
+
+        <label for="" class="formulario__label">Mensaje:</label>
+        <textarea name="message" id="message" placeholder="Mensaje:" cols="30" rows="10"
+          class="formulario__textarea"></textarea>
+
+        <button type="submit" class="btn formulario__btn" value="Enviar" onclick="return validateForm()">Enviar</button>
+      </form>
+    </div>
+
+
+  </main>
+  <footer>
+    <p>Derechos Reservados 2023</p>
+  </footer>
+</body>
+
+</html>

@@ -1,65 +1,120 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  
+}
 
 header {
-    background-color: #7ec2e4;
-    padding: 20px;
-    color: #e1eca7;
-    text-align: center;
-  }
+  background-color: #7ec2e4;
+  padding: 20px;
+  color: #e1eca7;
+  text-align: center;
 
-  main {
-    width: 80%;
-    margin: auto;
-    text-align: center;
+}
 
-  }
+a {
+  text-decoration: none;
+}
+li a{
+  display: block;
+  padding: 16px 16px ;
+}
+li a:hover{
+  background-color: rgb(95, 175, 218);
   
-  .image {
-    position: relative;
-    margin: 10px;
-    width: 300px;
-    height: 300px;
-  }
+}
+li{
+  float:right;
   
+  
+}
 
-  .grid-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-  }
-  
-  .image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition: opacity 0.5s;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  .overlay:hover {
-    opacity: 1;
-  }
-  
-  .text {
-    color: white;
-    font-size: 20px;
-    text-align: center;
-  }
-  footer {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-  }
+ul {
+  list-style: none;
+  text-decoration: none;
+  font-size: 13px;
+  overflow:hidden ;
+
+}
+
+main {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.D {
+  color: rgb(227, 126, 166);
+  font-size: 35px;
+
+}
+
+.a {
+  color: rgb(228, 231, 126);
+}
+
+.t {
+  color: orange;
+}
+
+.o {
+  color: rgb(149, 226, 132);
+}
+
+.s {
+  color: #9c86eb;
+}
+
+.image {
+  position: relative;
+  margin: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.5s;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+footer {
+  background-color: #7ec2e4;
+  color: #042b43;
+  padding: 10px;
+  text-align: center;
+}
